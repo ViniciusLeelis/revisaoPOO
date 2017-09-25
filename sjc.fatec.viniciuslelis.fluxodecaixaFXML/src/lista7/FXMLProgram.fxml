@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="entradaCaixa" prefHeight="586.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lista7.FXMLSecondController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d88373" height="590.0" layoutX="4.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="878.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#800101" height="719.0" layoutX="826.0" stroke="TRANSPARENT" strokeType="INSIDE" width="58.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eee5e9" height="719.0" stroke="#ffffff00" strokeType="INSIDE" width="836.0" />
+      <Text layoutX="14.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seja bem-vindo ">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Button fx:id="atualizarVendas" layoutX="24.0" layoutY="604.0" mnemonicParsing="false" onAction="#atualizarVendas" prefHeight="42.0" prefWidth="550.0" style="-fx-background-color: #C3EB78;" text="Atualizar vendas">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="atualizarRecebimentos" layoutX="580.0" layoutY="646.0" mnemonicParsing="false" onAction="#atualizarRecebimentos" prefHeight="42.0" prefWidth="241.0" style="-fx-background-color: #C3EB78;" text="Atualizar recebimentos">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listVendas" layoutX="24.0" layoutY="156.0" prefHeight="452.0" prefWidth="550.0" />
+      <ListView fx:id="listRecebimentos" layoutX="580.0" layoutY="156.0" prefHeight="439.0" prefWidth="241.0" />
+      <Text fill="#970000" layoutX="237.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrada de Caixa">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Text>
+      <Button fx:id="abrirSaidaCaixa" layoutX="645.0" layoutY="6.0" mnemonicParsing="false" onAction="#openSaidaCaixa" prefHeight="42.0" prefWidth="181.0" style="-fx-background-color: #C3EB78;" text="Saída de caixa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addVenda" layoutX="442.0" layoutY="6.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#addVendas" prefHeight="42.0" prefWidth="181.0" style="-fx-background-color: #C3EB78;" text="Adicionar venda" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="52.0" layoutX="580.0" layoutY="594.0" stroke="TRANSPARENT" strokeType="INSIDE" width="241.0" />
+      <Text layoutX="597.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:  R$" />
+      <Text fx:id="finalPreco" layoutX="665.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

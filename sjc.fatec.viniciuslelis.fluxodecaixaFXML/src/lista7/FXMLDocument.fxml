@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="conteudo" prefHeight="590.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lista7.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d88373" height="590.0" layoutX="-4.0" stroke="BLACK" strokeType="INSIDE" width="888.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#800101" height="369.0" layoutX="439.0" layoutY="106.0" stroke="TRANSPARENT" strokeType="INSIDE" width="352.0" />
+        <Label fx:id="label" layoutX="130.0" layoutY="83.0" minHeight="16" minWidth="69" />
+      <Text fx:id="welcomeMessage" fill="WHITE" layoutX="368.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome again !" textAlignment="CENTER" wrappingWidth="494.81787109375">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eee5e9" height="369.0" layoutX="87.0" layoutY="106.0" stroke="#ffffff00" strokeType="INSIDE" width="352.0" />
+      <Text layoutX="218.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in" wrappingWidth="90.81787109375">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwordTextField" layoutX="158.0" layoutY="250.0" prefHeight="34.0" prefWidth="195.0" text="password" />
+      <TextField fx:id="userTextField" layoutX="158.0" layoutY="200.0" prefHeight="34.0" prefWidth="195.0" text="user" />
+      <Button fx:id="loginButton" layoutX="158.0" layoutY="308.0" mnemonicParsing="false" onAction="#login" prefHeight="34.0" prefWidth="195.0" style="-fx-background-color: #76BED0;" text="Sign in">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="showPaneButton" layoutX="158.0" layoutY="383.0" mnemonicParsing="false" onAction="#showRegister" prefHeight="34.0" prefWidth="195.0" style="-fx-background-color: #F55D3E;" text="Register " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="156.0" layoutY="371.0" opacity="0.72" strokeType="OUTSIDE" strokeWidth="0.0" text="or" textAlignment="CENTER" wrappingWidth="200.0">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Polygon fill="#750303" layoutX="741.0" layoutY="435.0" stroke="TRANSPARENT" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Circle fill="#dacf00" layoutX="604.0" layoutY="414.0" opacity="0.16" radius="65.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Polygon fill="#750303" layoutX="676.0" layoutY="435.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Polygon fill="#750303" layoutX="539.0" layoutY="435.0" scaleX="2.0" stroke="TRANSPARENT" strokeLineCap="BUTT" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Polygon fill="#750303" layoutX="626.0" layoutY="424.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Polygon fill="#750303" layoutX="711.0" layoutY="403.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Polygon fill="#d88373" layoutX="109.0" layoutY="110.0" rotate="71.6" scaleX="1.5" scaleY="1.5" stroke="TRANSPARENT" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Polygon fill="#d88373" layoutX="791.0" layoutY="470.0" rotate="15.8" stroke="TRANSPARENT" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Pane fx:id="registerPane" layoutX="469.0" layoutY="173.0" prefHeight="269.0" prefWidth="284.0" visible="false">
+         <children>
+            <TextField fx:id="registerName" layoutX="47.0" layoutY="14.0" prefHeight="25.0" prefWidth="231.0" />
+            <Text fill="WHITE" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome:" />
+            <TextField fx:id="registerEmail" layoutX="47.0" layoutY="54.0" prefHeight="25.0" prefWidth="231.0" />
+            <Text fill="WHITE" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e-mail:" />
+            <TextField fx:id="registerUser" layoutX="106.0" layoutY="98.0" prefHeight="25.0" prefWidth="172.0" />
+            <Text fill="WHITE" layoutX="70.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user: " />
+            <PasswordField fx:id="registerPassword" layoutX="106.0" layoutY="135.0" prefHeight="25.0" prefWidth="172.0" />
+            <Text fill="WHITE" layoutX="42.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password: " />
+            <Button fx:id="registerPaneButton" layoutX="106.0" layoutY="180.0" mnemonicParsing="false" onAction="#registerUser" prefHeight="42.0" prefWidth="172.0" style="-fx-background-color: #F55D3E;" text="Registrar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
